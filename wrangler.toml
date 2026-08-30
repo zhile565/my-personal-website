@@ -1,0 +1,7 @@
+name = "personal-website-functions"
+compatibility_date = "2026-08-30"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "personal-chat-db"
+database_id = "4e8494aa-b259-4797-9ff1-4f36e5ec9d0c"

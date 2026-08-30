@@ -15,6 +15,8 @@
             <a href="#skills">技能</a>
             <a href="#projects">项目</a>
             <a href="#contact">联系我</a>
+            <a href="#chat">聊天助手</a>
+
         </nav>
     </header>
 
@@ -62,6 +64,32 @@
                 </a>
             </p>
         </section>
+        <section id="chat" class="section chat-section">
+            <h2>聊天助手</h2>
+            <p class="privacy-notice">
+                聊天内容会保存到服务器，请不要发送密码、身份证号或其他敏感信息。
+            </p>
+        
+            <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+        
+            <form id="chatForm" class="chat-form">
+                <textarea
+                    id="chatInput"
+                    maxlength="2000"
+                    rows="3"
+                    placeholder="输入你的问题"
+                    required
+                ></textarea>
+                <button type="submit" id="sendButton">发送</button>
+            </form>
+        
+            <button type="button" id="clearChatButton" class="secondary-button">
+                删除当前对话
+            </button>
+        
+            <p id="chatStatus" class="chat-status" role="status"></p>
+        </section>
+        
     </main>
 
     <footer>

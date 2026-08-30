@@ -1,15 +1,15 @@
 {
   "name": "my-personal-website",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "个人网站 - 带 DeepSeek AI 聊天功能",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "wrangler": "^4.127.1"
-  }
+  },
+  "author": "wangjunlong_good@163.com",
+  "license": "ISC"
 }
